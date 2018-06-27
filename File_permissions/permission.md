@@ -24,9 +24,9 @@ $ chown : admin sample
 ## special permission
  ------------------------------------------------
  concept: [file]
- u+s(suid)  ## file executes as the user that owns
- g+s(sgid)  ## file executes as the group that owns
- o+t(sticky) ## no effect
+- u+s(suid)  ## file executes as the user that owns
+- g+s(sgid)  ## file executes as the group that owns
+- o+t(sticky) ## no effect
  Eg:
  ```sh
  $ chmod g+s sample
