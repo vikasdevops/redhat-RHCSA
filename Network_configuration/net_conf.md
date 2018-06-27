@@ -9,7 +9,7 @@ $ ping 172.25.21.0.254
 ```sh
 $ ss -ta                ## socket statics
 ```
-## nmacli configuring
+## nmcli configuring
 ```sh
 $ nmcli con show        ## Displaying  connection
 $ nmcli con show -- active
@@ -18,4 +18,3 @@ $ nmcli con show -- active
 ```sh
 $ nmcli con add con-name "statics" ifname eth0  
 $ nmcli con add con-name "statics" ifname eth0 autoconnect no type ethernet ipv4 172.23.9.10/24 gw4 172.25.0.254     ## add ipv4 and gateway addresses
-  
