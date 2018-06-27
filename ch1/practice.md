@@ -20,7 +20,7 @@
  ```sh
   $ passwd prince
 ```
- ** want to see passwd **
+ **want to see passwd**
  -------------------------------------------------
 ```sh
  tail -2 /etc/passwd
