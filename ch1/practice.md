@@ -17,9 +17,9 @@
   $ ls -l/home
   ```
 ## set passwd in user
-  ``sh
+ ```sh
   $ passwd prince
-
+```
  ** want to see passwd **
  -------------------------------------------------
 ```sh
