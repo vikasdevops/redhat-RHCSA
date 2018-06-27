@@ -1,47 +1,40 @@
-# how to copy in redhat command :
-
+how to copy in redhat command :
+-----------------------------------------------
 1) copy /etc/fstab to /var/tmp name admin, the user1 could read, write and modify it , while user2 without any permission
 
-sol;
- cp/etc/fstab /var/tmp/fstab
- setfacl -m u:suer1:rwx /var/tmp/fstab
- setfacl -m u:user2:--- /var/tmp/fstab
- ls -l
- # -m = modify
- # setfacl= change permission
- # --- = no permission in case of user2
- 
+sol:
+ $ cp/etc/fstab /var/tmp/fstab
+ $ setfacl -m u:suer1:rwx /var/tmp/fstab
+ $ setfacl -m u:user2:--- /var/tmp/fstab
+ $ ls -l
+ ## -m = modify
+ ## setfacl= change permission
+ ## --- = no permission in case of user2
 
-2) how to add user 
 
+2) how to add user
+--------------------------------------------------
 
 sol:
-    useradd prince
-    ls -l/home
+  $ useradd prince
+  $ ls -l/home
 
-    # useradd command to add user 
-# set passwd in user
-  sol: 
-    passwd prince
+  ## useradd command to add user
+  ## set passwd in user
+  Eg:
+  $ passwd prince
 
- # want to see passwd 
- 
+ 3) want to see passwd
+ -------------------------------------------------
+
 sol: tail -2 /etc/passwd
 
-# tail use to freatch particular line
+##tail use to fetch particular line
 
 
-3) how to add group 
+ 4) how to add group
+ --------------------------------------------------
 sol:
+  $ groupadd artists
 
-  groupadd artists
-
-  tail -5 /etc/group
-
-
-  
-
-
-
-
-
+  $ tail -5 /etc/group
