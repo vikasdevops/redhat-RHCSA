@@ -1,3 +1,6 @@
+some practice question of REDHAT RHCSA
+++++++++++++++++++++++++++++++++++++++++++++++++
+
 how to copy in redhat command :
 -----------------------------------------------
 1) copy /etc/fstab to /var/tmp name admin, the user1 could read, write and modify it , while user2 without any permission
