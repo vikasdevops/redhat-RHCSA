@@ -5,5 +5,5 @@ Red Hat recommends three training classes to prepare for the RHCSA certification
 
 To obtain RHCSA certification, candidates must pass the 2.5-hour RHCSA Exam (EX200).**
 ## Related Jobs and Careers
-**With the majority of Fortune 500 companies currently using Red Hat open source solutions, the value of IT professionals well-versed in Red Hat Linux technologies has long been recognized. Trained Red Hat professionals are a key ingredient to the successful creation and maintenance of Red Hat solutions that deliver enduring value.**
+**With the majority of Fortune 500 companies currently using Red Hat open source solutions, the value of IT professionals well-versed in Red Hat Linux technologies has long been recognized. Trained Red Hat professionals are a key ingredient to the successful creation and maintenance of Red Hat solutions that deliver enduring value**.
 **Regardless of the type of Red Hat technology deployed, there is a consistent, established ongoing requirement for IT professionals qualified to server as administrators, system engineers and architects.**
