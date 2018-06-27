@@ -4,11 +4,11 @@
 - create file any name but extension should be .repo  
 - file create errata.repo
 - add entry
->[updates]
->name=Red Hat updates
->baseurl=http://con/example.com/rhel7.0/x86_64/errata
->enable=1
->gpgcheck=0
+[updates]
+name=Red Hat updates
+baseurl=http://con/example.com/rhel7.0/x86_64/errata
+enable=1
+gpgcheck=0
 
 ## yum install packages and configuration
 ```sh
