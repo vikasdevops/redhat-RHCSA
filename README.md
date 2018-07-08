@@ -7,3 +7,6 @@
 ## Related Jobs and Careers
 **With the majority of Fortune 500 companies currently using Red Hat open source solutions, the value of IT professionals well-versed in Red Hat Linux technologies has long been recognized. Trained Red Hat professionals are a key ingredient to the successful creation and maintenance of Red Hat solutions that deliver enduring value**.
 **Regardless of the type of Red Hat technology deployed, there is a consistent, established ongoing requirement for IT professionals qualified to server as administrators, system engineers and architects.**
+## View Syllabus RHCSA
+- Red Hat Certified System Administrator (RHCSA) exam
+https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam
