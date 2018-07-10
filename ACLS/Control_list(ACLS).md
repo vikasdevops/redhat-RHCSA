@@ -6,13 +6,14 @@ $ ls -l file_name
 ```sh
 $ getfacl file_name
 ```
-## Changeing ACL File permissions
+## Changing ACL File permissions
 ```sh  
 $ setfacl -m u:name:rX file        ## u=user , -m=modify   
 $ setfacl -m g:name:rw file        ## g=group  
 ```
 ## Note:
 - chmod has no effect on any group permissions for files with ACLS settings, but it updates the ACL mask.
+## ACL 
 ```sh
 $ setfacl -m o::- file             ## other user to  NO permissions
 ```
