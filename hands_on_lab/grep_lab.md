@@ -1,8 +1,12 @@
 ## Outcome
 - Find files and directory of yum in etc directory.
 - Find files and directory which match form c and t.
-- Create the directory, Inside it make file in Desktop by dev_p
-write this line 
+- Create the directory ansible, Inside it make file dev_p
+**write this text on the file**: devops is the user of machine    
+ansible tool for ansible devops is automation tool  
+ansible is better configure tool
+- Find the word in file devops.
+
 
 ## Labs
 ```sh
@@ -21,4 +25,6 @@ drwxr-xr-x.  2 root root       17 De**c 23  2017 rwt**ab.d
 
 :more
 
-```sh
+>$ cat dev_p | grep devops   
+**devops** is the user of machine   
+**devops** is automation tool
